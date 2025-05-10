@@ -1,0 +1,9 @@
+path: dataset/elna
+train: images/train
+val: images/val
+
+nc: 14
+names: [
+  "player_dot", "npc", "monster", "ladder_rope", "skill_attack", "skill_install",
+  "portal", "jump_action", "hit_object", "projectile_attack", "reward_box", "item_drop","mid_boss","shell_mid_boss"
+]
