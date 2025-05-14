@@ -2,8 +2,20 @@ path: dataset/elna
 train: images/train
 val: images/val
 
-nc: 14
-names: [
-  "player_dot", "npc", "monster", "ladder_rope", "skill_attack", "skill_install",
-  "portal", "jump_action", "hit_object", "projectile_attack", "reward_box", "item_drop","mid_boss","shell_mid_boss"
-]
+nc: 15
+names:
+  - npc
+  - player_dot
+  - skill_attack_normal
+  - skill_attack_burst
+  - skill_install
+  - projectile_attack
+  - monster
+  - mid_boss
+  - shell_mid_boss_closed
+  - shell_mid_boss_opened
+  - portal
+  - hit_object
+  - reward_box
+  - item_drop
+  - ladder_rope
